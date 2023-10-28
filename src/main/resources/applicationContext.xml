@@ -6,9 +6,8 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="testBean"
-          class="org.example.springcourse.TestBean">
-        <constructor-arg value="Ihor"/>
+    <bean id="musicBean"
+          class="org.example.springcourse.PopMusic">
     </bean>
 
 </beans>
