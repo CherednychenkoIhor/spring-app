@@ -20,7 +20,8 @@
     </bean>
 
     <bean id="musicPlayer"
-          class="org.example.springCourse.MusicPlayer">
+          class="org.example.springCourse.MusicPlayer"
+          scope="prototype">
         <property name="musicList">
             <list>
                 <ref bean="musicBean1"/>
