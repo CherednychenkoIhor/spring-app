@@ -1,4 +1,4 @@
-package org.example.springcourse;
+package org.example.springCourse;
 
 import java.util.ArrayList;
 import java.util.List;
