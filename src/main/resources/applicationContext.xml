@@ -7,20 +7,21 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:property-placeholder location="musicPlayer.properties"/>
+    <context:component-scan base-package="org.example.springCourse"/>
 
-    <bean id="musicBean"
-          class="org.example.springCourse.ClassicalMusic"
-          init-method="doMyInit"
-          destroy-method="doMyDestroy"
-          factory-method="getClassicalMusic">
-    </bean>
-    <bean id="musicBean2"
-          class="org.example.springCourse.PopMusic">
-    </bean>
-    <bean id="musicBean3"
-          class="org.example.springCourse.RockMusic">
-    </bean>
+<!--    <context:property-placeholder location="musicPlayer.properties"/>-->
+<!--    <bean id="musicBean"-->
+<!--          class="org.example.springCourse.ClassicalMusic"-->
+<!--          init-method="doMyInit"-->
+<!--          destroy-method="doMyDestroy"-->
+<!--          factory-method="getClassicalMusic">-->
+<!--    </bean>-->
+<!--    <bean id="musicBean2"-->
+<!--          class="org.example.springCourse.PopMusic">-->
+<!--    </bean>-->
+<!--    <bean id="musicBean3"-->
+<!--          class="org.example.springCourse.RockMusic">-->
+<!--    </bean>-->
 
     <!--    <bean id="musicPlayer"-->
     <!--          class="org.example.springCourse.MusicPlayer"-->
