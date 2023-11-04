@@ -5,8 +5,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Computer {
-    private int id;
-    private MusicPlayer musicPlayer;
+    private final int id;
+    private final MusicPlayer musicPlayer;
 
     @Autowired
     public Computer(MusicPlayer musicPlayer) {
@@ -14,8 +14,8 @@ public class Computer {
         this.musicPlayer = musicPlayer;
     }
 
-    @Override
-    public String toString() {
-        return "Computer " + id + " " + musicPlayer.playMusic();
-    }
+//    @Override
+//    public String toString() {
+//        return "Computer " + id + " " + musicPlayer.playMusic(Genre.CLASSICAL);
+//    }
 }

@@ -1,8 +1,10 @@
 package org.example.springCourse;
 
+import java.util.List;
+
 public class PopMusic implements Music{
     @Override
-    public String getSong() {
-        return "Resistance";
+    public List<String> getSong() {
+        return null;
     }
 }
