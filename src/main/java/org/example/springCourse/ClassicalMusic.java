@@ -3,8 +3,6 @@ package org.example.springCourse;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
-import org.springframework.stereotype.Component;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,10 +19,11 @@ public class ClassicalMusic implements Music {
     }
 
     List<String> songs = new ArrayList<>();
+
     {
         songs.add("Hungarian Rhapsody");
         songs.add("In The Morning");
-            songs.add("Last Resort");
+        songs.add("Last Resort");
     }
 
     @Override

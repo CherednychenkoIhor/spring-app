@@ -5,6 +5,7 @@ import java.util.List;
 
 public class PopMusic implements Music {
     List<String> songs = new ArrayList<>();
+
     {
         songs.add("Something pop");
     }
